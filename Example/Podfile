@@ -1,0 +1,6 @@
+use_frameworks!
+target 'DKLogger_Tests' do
+  pod 'DKLogger', :path => '../'
+  
+  
+end
