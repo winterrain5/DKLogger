@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # DKLogger
 
 [![CI Status](https://img.shields.io/travis/winterrain5/DKLogger.svg?style=flat)](https://travis-ci.org/winterrain5/DKLogger)
@@ -28,6 +27,4 @@ winterrain5, 913419042@qq.com
 ## License
 
 DKLogger is available under the MIT license. See the LICENSE file for more info.
-=======
-# DKLogger
->>>>>>> 8891b74cc18f2b8d2c473af8644221b0e935ff95
+
