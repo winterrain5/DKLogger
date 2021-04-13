@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		14DC89A358033EDFA256EEDF5D238AA0 /* DKLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED86694BB74CFF0B1962A7347A341E1F /* DKLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39078EAD26253D1D00C1B0B1 /* ModesExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39078EA226253D1D00C1B0B1 /* ModesExtractor.swift */; };
-		39078EAE26253D1D00C1B0B1 /* BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39078EA326253D1D00C1B0B1 /* BackgroundColor.swift */; };
-		39078EAF26253D1D00C1B0B1 /* ColorApproximation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39078EA426253D1D00C1B0B1 /* ColorApproximation.swift */; };
-		39078EB026253D1D00C1B0B1 /* CodesParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39078EA526253D1D00C1B0B1 /* CodesParser.swift */; };
-		39078EB126253D1D00C1B0B1 /* ControlCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39078EA626253D1D00C1B0B1 /* ControlCode.swift */; };
-		39078EB226253D1D00C1B0B1 /* StringGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39078EA726253D1D00C1B0B1 /* StringGenerator.swift */; };
-		39078EB326253D1D00C1B0B1 /* Rainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39078EA826253D1D00C1B0B1 /* Rainbow.swift */; };
-		39078EB426253D1D00C1B0B1 /* OutputTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39078EA926253D1D00C1B0B1 /* OutputTarget.swift */; };
-		39078EB526253D1D00C1B0B1 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39078EAA26253D1D00C1B0B1 /* Style.swift */; };
-		39078EB626253D1D00C1B0B1 /* String+Rainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39078EAB26253D1D00C1B0B1 /* String+Rainbow.swift */; };
-		39078EB726253D1D00C1B0B1 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39078EAC26253D1D00C1B0B1 /* Color.swift */; };
+		39078EC826253EF900C1B0B1 /* ModesExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39078EBD26253EF900C1B0B1 /* ModesExtractor.swift */; };
+		39078EC926253EF900C1B0B1 /* BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39078EBE26253EF900C1B0B1 /* BackgroundColor.swift */; };
+		39078ECA26253EF900C1B0B1 /* ColorApproximation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39078EBF26253EF900C1B0B1 /* ColorApproximation.swift */; };
+		39078ECB26253EF900C1B0B1 /* CodesParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39078EC026253EF900C1B0B1 /* CodesParser.swift */; };
+		39078ECC26253EF900C1B0B1 /* ControlCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39078EC126253EF900C1B0B1 /* ControlCode.swift */; };
+		39078ECD26253EF900C1B0B1 /* StringGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39078EC226253EF900C1B0B1 /* StringGenerator.swift */; };
+		39078ECE26253EF900C1B0B1 /* Rainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39078EC326253EF900C1B0B1 /* Rainbow.swift */; };
+		39078ECF26253EF900C1B0B1 /* OutputTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39078EC426253EF900C1B0B1 /* OutputTarget.swift */; };
+		39078ED026253EF900C1B0B1 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39078EC526253EF900C1B0B1 /* Style.swift */; };
+		39078ED126253EF900C1B0B1 /* String+Rainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39078EC626253EF900C1B0B1 /* String+Rainbow.swift */; };
+		39078ED226253EF900C1B0B1 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39078EC726253EF900C1B0B1 /* Color.swift */; };
 		51C37C803D6106E6CD1CFDD9FBB48966 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7EC2EF2D47E85F8643AE6DDB379FB3AF /* DKLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC6A0AC602E12B495586496C1F1011F /* DKLogger-dummy.m */; };
 		7FF9FA5A905ED01CB0E16F9AF0C5573F /* Pods-DKLogger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F85FA781B23FB3F0C4505B778FDA1941 /* Pods-DKLogger_Tests-dummy.m */; };
@@ -42,17 +42,17 @@
 		1DC6A0AC602E12B495586496C1F1011F /* DKLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DKLogger-dummy.m"; sourceTree = "<group>"; };
 		2BDAA96FCD1DE02CB3ED23D44213EA8B /* Pods-DKLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		30F2E5A6A39149E3765CA977092F3294 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		39078EA226253D1D00C1B0B1 /* ModesExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModesExtractor.swift; sourceTree = "<group>"; };
-		39078EA326253D1D00C1B0B1 /* BackgroundColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundColor.swift; sourceTree = "<group>"; };
-		39078EA426253D1D00C1B0B1 /* ColorApproximation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorApproximation.swift; sourceTree = "<group>"; };
-		39078EA526253D1D00C1B0B1 /* CodesParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodesParser.swift; sourceTree = "<group>"; };
-		39078EA626253D1D00C1B0B1 /* ControlCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlCode.swift; sourceTree = "<group>"; };
-		39078EA726253D1D00C1B0B1 /* StringGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringGenerator.swift; sourceTree = "<group>"; };
-		39078EA826253D1D00C1B0B1 /* Rainbow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rainbow.swift; sourceTree = "<group>"; };
-		39078EA926253D1D00C1B0B1 /* OutputTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutputTarget.swift; sourceTree = "<group>"; };
-		39078EAA26253D1D00C1B0B1 /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
-		39078EAB26253D1D00C1B0B1 /* String+Rainbow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Rainbow.swift"; sourceTree = "<group>"; };
-		39078EAC26253D1D00C1B0B1 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		39078EBD26253EF900C1B0B1 /* ModesExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModesExtractor.swift; sourceTree = "<group>"; };
+		39078EBE26253EF900C1B0B1 /* BackgroundColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundColor.swift; sourceTree = "<group>"; };
+		39078EBF26253EF900C1B0B1 /* ColorApproximation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorApproximation.swift; sourceTree = "<group>"; };
+		39078EC026253EF900C1B0B1 /* CodesParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodesParser.swift; sourceTree = "<group>"; };
+		39078EC126253EF900C1B0B1 /* ControlCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlCode.swift; sourceTree = "<group>"; };
+		39078EC226253EF900C1B0B1 /* StringGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringGenerator.swift; sourceTree = "<group>"; };
+		39078EC326253EF900C1B0B1 /* Rainbow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rainbow.swift; sourceTree = "<group>"; };
+		39078EC426253EF900C1B0B1 /* OutputTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutputTarget.swift; sourceTree = "<group>"; };
+		39078EC526253EF900C1B0B1 /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		39078EC626253EF900C1B0B1 /* String+Rainbow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Rainbow.swift"; sourceTree = "<group>"; };
+		39078EC726253EF900C1B0B1 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		4448D3E11B533972B0080D9367266338 /* DKLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DKLogger.release.xcconfig; sourceTree = "<group>"; };
 		495EED975DC26868D949124D3A64A751 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4D8D5FF354342EF8018C9EFF8A147F52 /* Pods-DKLogger_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DKLogger_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 		2D6E389622B7F1229E8E2074302379BB /* DKLogger */ = {
 			isa = PBXGroup;
 			children = (
-				39078EA126253D1D00C1B0B1 /* Rainbow */,
+				39078EBC26253EF900C1B0B1 /* Rainbow */,
 				7D24871A711C465A2349C243C539070A /* DKLogger.swift */,
 				DB34BC769218BA21240777B6949E258E /* Pod */,
 				7FB6FC41DBB7706232FBE45A0779554B /* Support Files */,
@@ -115,22 +115,23 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		39078EA126253D1D00C1B0B1 /* Rainbow */ = {
+		39078EBC26253EF900C1B0B1 /* Rainbow */ = {
 			isa = PBXGroup;
 			children = (
-				39078EA226253D1D00C1B0B1 /* ModesExtractor.swift */,
-				39078EA326253D1D00C1B0B1 /* BackgroundColor.swift */,
-				39078EA426253D1D00C1B0B1 /* ColorApproximation.swift */,
-				39078EA526253D1D00C1B0B1 /* CodesParser.swift */,
-				39078EA626253D1D00C1B0B1 /* ControlCode.swift */,
-				39078EA726253D1D00C1B0B1 /* StringGenerator.swift */,
-				39078EA826253D1D00C1B0B1 /* Rainbow.swift */,
-				39078EA926253D1D00C1B0B1 /* OutputTarget.swift */,
-				39078EAA26253D1D00C1B0B1 /* Style.swift */,
-				39078EAB26253D1D00C1B0B1 /* String+Rainbow.swift */,
-				39078EAC26253D1D00C1B0B1 /* Color.swift */,
+				39078EBD26253EF900C1B0B1 /* ModesExtractor.swift */,
+				39078EBE26253EF900C1B0B1 /* BackgroundColor.swift */,
+				39078EBF26253EF900C1B0B1 /* ColorApproximation.swift */,
+				39078EC026253EF900C1B0B1 /* CodesParser.swift */,
+				39078EC126253EF900C1B0B1 /* ControlCode.swift */,
+				39078EC226253EF900C1B0B1 /* StringGenerator.swift */,
+				39078EC326253EF900C1B0B1 /* Rainbow.swift */,
+				39078EC426253EF900C1B0B1 /* OutputTarget.swift */,
+				39078EC526253EF900C1B0B1 /* Style.swift */,
+				39078EC626253EF900C1B0B1 /* String+Rainbow.swift */,
+				39078EC726253EF900C1B0B1 /* Color.swift */,
 			);
-			path = Rainbow;
+			name = Rainbow;
+			path = DKLogger/Classes/Rainbow;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -336,19 +337,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39078EB326253D1D00C1B0B1 /* Rainbow.swift in Sources */,
-				39078EB426253D1D00C1B0B1 /* OutputTarget.swift in Sources */,
+				39078ECE26253EF900C1B0B1 /* Rainbow.swift in Sources */,
+				39078ECF26253EF900C1B0B1 /* OutputTarget.swift in Sources */,
 				7EC2EF2D47E85F8643AE6DDB379FB3AF /* DKLogger-dummy.m in Sources */,
-				39078EB626253D1D00C1B0B1 /* String+Rainbow.swift in Sources */,
-				39078EB726253D1D00C1B0B1 /* Color.swift in Sources */,
-				39078EB126253D1D00C1B0B1 /* ControlCode.swift in Sources */,
-				39078EAF26253D1D00C1B0B1 /* ColorApproximation.swift in Sources */,
-				39078EAD26253D1D00C1B0B1 /* ModesExtractor.swift in Sources */,
+				39078ED126253EF900C1B0B1 /* String+Rainbow.swift in Sources */,
+				39078ED226253EF900C1B0B1 /* Color.swift in Sources */,
+				39078ECC26253EF900C1B0B1 /* ControlCode.swift in Sources */,
+				39078ECA26253EF900C1B0B1 /* ColorApproximation.swift in Sources */,
+				39078EC826253EF900C1B0B1 /* ModesExtractor.swift in Sources */,
 				8BC11FC779E25131606BEAE83C873446 /* DKLogger.swift in Sources */,
-				39078EAE26253D1D00C1B0B1 /* BackgroundColor.swift in Sources */,
-				39078EB226253D1D00C1B0B1 /* StringGenerator.swift in Sources */,
-				39078EB026253D1D00C1B0B1 /* CodesParser.swift in Sources */,
-				39078EB526253D1D00C1B0B1 /* Style.swift in Sources */,
+				39078EC926253EF900C1B0B1 /* BackgroundColor.swift in Sources */,
+				39078ECD26253EF900C1B0B1 /* StringGenerator.swift in Sources */,
+				39078ECB26253EF900C1B0B1 /* CodesParser.swift in Sources */,
+				39078ED026253EF900C1B0B1 /* Style.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

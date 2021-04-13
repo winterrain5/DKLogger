@@ -22,6 +22,7 @@
  */
 import Foundation
 import UIKit
+
 public enum LogLevel:Int,CustomStringConvertible {
     
     case Debug
