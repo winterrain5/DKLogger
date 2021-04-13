@@ -138,7 +138,7 @@ open class Logger {
                 guard let createDate = attributes[FileAttributeKey.creationDate] as? Date else { return }
                 let dateSince = daysSince(date: Date(), otherDate: createDate)
                 if dateSince > 5 {
-                    try! manager.removeItem(atPath: cacheDirectory + "/\(file)")
+                    try manager.removeItem(atPath: cacheDirectory + "/\(file)")
                 }
             }
         } catch  {
