@@ -104,7 +104,6 @@ class DKLogger {
                                             withIntermediateDirectories: true, attributes: nil)
             let filePath = dateFormater("yyyy.MM.dd").appending("-VictorLogs.txt")
             guard let logURL = URL(string: asNSString(cacheDirectory).appendingPathComponent(filePath)) else { return }
-            Logger.shared.filePath = logURL.absoluteString
             appendText(fileURL: logURL, string: logString)
         } catch {
             print("failed to crateDirectory: \(error)")
@@ -148,7 +147,7 @@ class DKLogger {
     }
 }
 
-extension Logger {
+extension DKLogger {
     private static func dateFormater(_ format:String) -> String{
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = format
