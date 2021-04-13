@@ -42,34 +42,34 @@ public enum LogLevel:Int,CustomStringConvertible {
     }
     
 }
-class DKLogger {
-    static let shared = DKLogger()
-    var filePath:String = ""
+open class Logger {
+    public static let shared = Logger()
+    public var filePath:String = ""
     
     private static let cacheDirectory = NSHomeDirectory() + "/Documents/VictorLogs"
     
-    static func debug<T>(_ message:T,
+    public static func debug<T>(_ message:T,
                          label:String = "",
                          _ file: String = #file,
                          _ line: Int = #line) {
         innerprint(message, .Debug, label, file, line)
     }
     
-    static func info<T>(_ message:T,
+    public static func info<T>(_ message:T,
                         label:String = "",
                         _ file: String = #file,
                         _ line: Int = #line) {
         innerprint(message, .Info, label, file, line)
     }
     
-    static func warn<T>(_ message:T,
+    public static func warn<T>(_ message:T,
                         label:String = "",
                         _ file: String = #file,
                         _ line: Int = #line) {
         innerprint(message, .Warn, label, file, line)
     }
     
-    static func error<T>(_ message:T,
+    public static func error<T>(_ message:T,
                          label:String = "",
                          _ file: String = #file,
                          _ line: Int = #line) {
@@ -147,7 +147,7 @@ class DKLogger {
     }
 }
 
-extension DKLogger {
+extension Logger {
     private static func dateFormater(_ format:String) -> String{
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = format
