@@ -20,7 +20,8 @@
  [2021-03-15 10:53:34] [WARN] [rtc(日志标签)] 具体内容
  WARN/INFO/ERROR/DEBUG
  */
-
+import Foundation
+import UIKit
 public enum LogLevel:Int,CustomStringConvertible {
     
     case Debug
@@ -43,10 +44,10 @@ public enum LogLevel:Int,CustomStringConvertible {
     
 }
 open class Logger {
-    public static let shared = Logger()
-    public var filePath:String = ""
     
-    private static let cacheDirectory = NSHomeDirectory() + "/Documents/VictorLogs"
+    public static let shared = Logger()
+    
+    public static let cacheDirectory = NSHomeDirectory() + "/Documents/VictorLogs"
     
     public static func debug<T>(_ message:T,
                          label:String = "",
