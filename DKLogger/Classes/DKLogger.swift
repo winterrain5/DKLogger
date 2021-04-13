@@ -43,7 +43,7 @@ public enum LogLevel:Int,CustomStringConvertible {
     
 }
 class DKLogger {
-    static let shared = Logger()
+    static let shared = DKLogger()
     var filePath:String = ""
     
     private static let cacheDirectory = NSHomeDirectory() + "/Documents/VictorLogs"

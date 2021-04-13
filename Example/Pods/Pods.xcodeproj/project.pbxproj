@@ -12,7 +12,7 @@
 		7EC2EF2D47E85F8643AE6DDB379FB3AF /* DKLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC6A0AC602E12B495586496C1F1011F /* DKLogger-dummy.m */; };
 		7FF9FA5A905ED01CB0E16F9AF0C5573F /* Pods-DKLogger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F85FA781B23FB3F0C4505B778FDA1941 /* Pods-DKLogger_Tests-dummy.m */; };
 		88E49BB5126ED4409A6D726AFA765EE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		8BC11FC779E25131606BEAE83C873446 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D24871A711C465A2349C243C539070A /* Logger.swift */; };
+		8BC11FC779E25131606BEAE83C873446 /* DKLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D24871A711C465A2349C243C539070A /* DKLogger.swift */; };
 		A17B199ADD113C6E4635BC09303DAD99 /* Pods-DKLogger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8D5FF354342EF8018C9EFF8A147F52 /* Pods-DKLogger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -27,27 +27,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		133737C5BA66F527F57E392CA740AB0D /* DKLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DKLogger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		133737C5BA66F527F57E392CA740AB0D /* DKLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DKLogger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1DC6A0AC602E12B495586496C1F1011F /* DKLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DKLogger-dummy.m"; sourceTree = "<group>"; };
 		2BDAA96FCD1DE02CB3ED23D44213EA8B /* Pods-DKLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		30F2E5A6A39149E3765CA977092F3294 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		30F2E5A6A39149E3765CA977092F3294 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4448D3E11B533972B0080D9367266338 /* DKLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DKLogger.release.xcconfig; sourceTree = "<group>"; };
-		495EED975DC26868D949124D3A64A751 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		495EED975DC26868D949124D3A64A751 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4D8D5FF354342EF8018C9EFF8A147F52 /* Pods-DKLogger_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DKLogger_Tests-umbrella.h"; sourceTree = "<group>"; };
 		52CAABBCA70C8FC224789566B35F37D1 /* Pods-DKLogger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DKLogger_Tests.modulemap"; sourceTree = "<group>"; };
 		5723D806399B304F2FD0577E4698B255 /* DKLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKLogger-prefix.pch"; sourceTree = "<group>"; };
 		679493FA9C479E0FBE46D130E41058B4 /* Pods-DKLogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKLogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		787A17C241E9C26DCE260B25676CE904 /* Pods-DKLogger_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKLogger_Tests-Info.plist"; sourceTree = "<group>"; };
-		7D24871A711C465A2349C243C539070A /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = DKLogger/Classes/Logger.swift; sourceTree = "<group>"; };
+		7D24871A711C465A2349C243C539070A /* DKLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKLogger.swift; path = DKLogger/Classes/DKLogger.swift; sourceTree = "<group>"; };
 		87DD63F26EFE089BA5D563FC99E2C4BD /* DKLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DKLogger.modulemap; sourceTree = "<group>"; };
-		8D8B8B6B591AE9F4D37049CA708D0B3B /* DKLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DKLogger.framework; path = DKLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8D8B8B6B591AE9F4D37049CA708D0B3B /* DKLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DKLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E2336030573F5516303473E57CD5A80 /* DKLogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DKLogger.debug.xcconfig; sourceTree = "<group>"; };
 		A68BA771C5833EF681BD8DB6CA1536A7 /* Pods-DKLogger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKLogger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B2CB05A7F658A857E4B04C69C99EBA23 /* DKLogger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DKLogger-Info.plist"; sourceTree = "<group>"; };
 		B7819A89C1B1DA1B77E413F9287C6F9F /* Pods-DKLogger_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKLogger_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		C3B63428E62850163DC79066F42771F7 /* Pods_DKLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DKLogger_Tests.framework; path = "Pods-DKLogger_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B63428E62850163DC79066F42771F7 /* Pods_DKLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DKLogger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91C74B204A61A6A47229A0066D993B4 /* Pods-DKLogger_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DKLogger_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ED86694BB74CFF0B1962A7347A341E1F /* DKLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKLogger-umbrella.h"; sourceTree = "<group>"; };
 		F85FA781B23FB3F0C4505B778FDA1941 /* Pods-DKLogger_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DKLogger_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 		2D6E389622B7F1229E8E2074302379BB /* DKLogger */ = {
 			isa = PBXGroup;
 			children = (
-				7D24871A711C465A2349C243C539070A /* Logger.swift */,
+				7D24871A711C465A2349C243C539070A /* DKLogger.swift */,
 				DB34BC769218BA21240777B6949E258E /* Pod */,
 				7FB6FC41DBB7706232FBE45A0779554B /* Support Files */,
 			);
@@ -296,7 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EC2EF2D47E85F8643AE6DDB379FB3AF /* DKLogger-dummy.m in Sources */,
-				8BC11FC779E25131606BEAE83C873446 /* Logger.swift in Sources */,
+				8BC11FC779E25131606BEAE83C873446 /* DKLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,8 +398,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
