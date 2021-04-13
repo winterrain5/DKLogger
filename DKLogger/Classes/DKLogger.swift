@@ -32,13 +32,13 @@ public enum LogLevel:Int,CustomStringConvertible {
     public var description: String {
         switch self {
         case .Error:
-            return "❎ERROR"
+            return "❎ERROR".red
         case .Info:
-            return "📪INFO"
+            return "📪INFO".green
         case .Warn:
-            return "⚠️WARN"
+            return "⚠️WARN".yellow
         case .Debug:
-            return "🐎DEBUG"
+            return "🐎DEBUG".blue
         }
     }
     
