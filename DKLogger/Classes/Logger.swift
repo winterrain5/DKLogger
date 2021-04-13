@@ -42,7 +42,7 @@ public enum LogLevel:Int,CustomStringConvertible {
     }
     
 }
-class Logger {
+class DKLogger {
     static let shared = Logger()
     var filePath:String = ""
     
