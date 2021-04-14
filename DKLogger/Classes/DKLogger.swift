@@ -47,7 +47,7 @@ public enum LogLevel:Int,CustomStringConvertible {
 open class Logger {
     
     public static let shared = Logger()
-    
+    public static var isEnableWriteToFileInDebugMode:Bool = false
     public static let cacheDirectory = NSHomeDirectory() + "/Documents/VictorLogs"
     
     public static func debug<T>(_ message:T,
@@ -92,8 +92,12 @@ open class Logger {
         }else {
             output = "[\(date)] [\(level.description)] [\(fileName).\(line)] [\(label)] \(message)"
         }
-        if level.rawValue > LogLevel.Debug.rawValue {
+        if isEnableWriteToFileInDebugMode {
             writeToFile(output)
+        }else {
+            if level.rawValue > LogLevel.Debug.rawValue {
+                writeToFile(output)
+            }
         }
         print(output)
     }
