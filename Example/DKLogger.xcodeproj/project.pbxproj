@@ -13,14 +13,14 @@
 
 /* Begin PBXFileReference section */
 		41FF0336E3F43CB0B9E10866 /* Pods-DKLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKLogger_Tests.release.xcconfig"; path = "Target Support Files/Pods-DKLogger_Tests/Pods-DKLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		55F286C43C75F6EF6BAA9EEB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		55F286C43C75F6EF6BAA9EEB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* DKLogger_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKLogger_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		A35B889AC8815BA97236BEF0 /* Pods-DKLogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKLogger_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DKLogger_Tests/Pods-DKLogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C9E83F2333F87FFCD37D79B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C9E83F2333F87FFCD37D79B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EAFF74A9DD97AF1F7B06CECB /* Pods_DKLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DKLogger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8FEEB4F0508FA568B480401 /* DKLogger.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DKLogger.podspec; path = ../DKLogger.podspec; sourceTree = "<group>"; };
+		F8FEEB4F0508FA568B480401 /* DKLogger.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DKLogger.podspec; path = ../DKLogger.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,6 @@
 				A35B889AC8815BA97236BEF0 /* Pods-DKLogger_Tests.debug.xcconfig */,
 				41FF0336E3F43CB0B9E10866 /* Pods-DKLogger_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

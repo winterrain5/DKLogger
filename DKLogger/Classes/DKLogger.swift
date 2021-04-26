@@ -85,7 +85,7 @@ open class Logger {
                                    _ line: Int) {
         checkOldFile()
         let fileName = (file as NSString).lastPathComponent
-        let date = dateFormater("yyyy-MM-dd HH:mm:ss")
+        let date = dateFormater("yyyy-MM-dd HH:mm:ss.sss")
         var output = ""
         if label.isEmpty {
             output = "[\(date)] [\(level.description)] [\(fileName).\(line)] \(message)"
