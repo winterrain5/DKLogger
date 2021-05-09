@@ -1,5 +1,5 @@
 PODS:
-  - DKLogger (0.1.0)
+  - DKLogger (0.3.8.1)
 
 DEPENDENCIES:
   - DKLogger (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DKLogger: beac19b81263e2f3bf1b9dfc051b00ec47a6bbd6
+  DKLogger: b8b2f12059b452f969f98167e7fee88c767bea67
 
 PODFILE CHECKSUM: b0b2cf65e3d1c90255ddfdf583d45ec02f6f9461
 

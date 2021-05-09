@@ -46,7 +46,6 @@ public enum LogLevel:Int,CustomStringConvertible {
 }
 open class Logger {
     
-    public static let shared = Logger()
     public static var isEnableWriteToFileInDebugMode:Bool = false
     public static let cacheDirectory = NSHomeDirectory() + "/Documents/VictorLogs"
     
