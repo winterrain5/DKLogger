@@ -47,7 +47,8 @@ public enum LogLevel:Int,CustomStringConvertible {
 open class Logger {
     
     public static var isEnableWriteToFileInDebugMode:Bool = false
-    public static let cacheDirectory = NSHomeDirectory() + "/Documents/VictorLogs"
+    public static var cacheDirectory = NSHomeDirectory() + "/Documents/VictorLogs"
+    public static var cacheTxtName = "VictorLogs"
     
     public static func debug<T>(_ message:T,
                          label:String = "",
@@ -107,7 +108,7 @@ open class Logger {
         do {
             try fileManager.createDirectory(atPath: cacheDirectory,
                                             withIntermediateDirectories: true, attributes: nil)
-            let filePath = dateFormater("yyyy.MM.dd").appending("-VictorLogs.txt")
+            let filePath = dateFormater("yyyy.MM.dd").appending("-\(cacheTxtName).txt")
             guard let logURL = URL(string: asNSString(cacheDirectory).appendingPathComponent(filePath)) else { return }
             appendText(fileURL: logURL, string: logString)
         } catch {
