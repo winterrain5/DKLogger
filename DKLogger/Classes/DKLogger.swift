@@ -47,8 +47,8 @@ public enum LogLevel:Int,CustomStringConvertible {
 open class Logger {
     
     public static var isEnableWriteToFileInDebugMode:Bool = false
-    public static var cacheDirectory = NSHomeDirectory() + "/Documents/VictorLogs"
-    public static var cacheTxtName = "VictorLogs"
+    public static var cacheDirectory = NSHomeDirectory() + "/Documents/Logs"
+    public static var cacheTxtName = "LogFile"
     
     public static func debug<T>(_ message:T,
                          label:String = "",

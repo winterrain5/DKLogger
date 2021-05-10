@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DKLogger'
-  s.version          = '0.3.8.3'
-  s.summary          = 'A short description of DKLogger.'
+  s.version          = '0.4.0'
+  s.summary          = '简便的日志工具'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
