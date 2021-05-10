@@ -7,6 +7,26 @@
 
 ## Example
 
+
+```swift
+Logger.debug("hello world")
+Logger.info("hello world")
+Logger.warn("hello world")
+Logger.error("hello world")
+```
+- 设置路径和文件名称
+```swift
+Logger.cacheDirectory = ""
+Logger.cacheTxtName = ""
+```
+- 设置debug模式下是否写入文件 默认不写入
+```swift
+Logger.isEnableWriteToFileInDebugMode = true
+```
+
+
+
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
